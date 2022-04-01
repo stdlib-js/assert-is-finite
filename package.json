@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/assert-is-finite",
+  "version": "0.0.0",
+  "description": "Test if a value is a finite number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-finite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "number",
+    "numeric",
+    "finite",
+    "infinite",
+    "inf",
+    "is",
+    "isfinite",
+    "type",
+    "check",
+    "primitive",
+    "object",
+    "validate",
+    "valid",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
