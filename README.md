@@ -169,8 +169,8 @@ bool = isFinite( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-finite-array`][@stdlib/assert/is-finite-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only finite numbers.</span>
--   <span class="package-name">[`@stdlib/assert/is-infinite`][@stdlib/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a value is an infinite number.</span>
+-   <span class="package-name">[`@stdlib/assert-is-finite-array`][@stdlib/assert/is-finite-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only finite numbers.</span>
+-   <span class="package-name">[`@stdlib/assert-is-infinite`][@stdlib/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a value is an infinite number.</span>
 
 </section>
 
