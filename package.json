@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-finite",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Test if a value is a finite number.",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-number": "^0.0.7",
-    "@stdlib/math-base-assert-is-finite": "^0.0.7",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
+    "@stdlib/assert-is-number": "^0.1.0",
+    "@stdlib/math-base-assert-is-finite": "^0.1.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/number-ctor": "^0.0.7",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/number-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
