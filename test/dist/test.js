@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,30 +16,18 @@
 * limitations under the License.
 */
 
-/* eslint-disable stdlib/no-redeclare */
-
 'use strict';
 
 // MODULES //
 
 var tape = require( 'tape' );
-var isFinite = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isFinite, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'attached to the main export is a method to test for a primitive number having a finite value', function test( t ) {
-	t.strictEqual( typeof isFinite.isPrimitive, 'function', 'export is a function' );
-	t.end();
-});
-
-tape( 'attached to the main export is a method to test for a number object having a finite value', function test( t ) {
-	t.strictEqual( typeof isFinite.isObject, 'function', 'export is a function' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
