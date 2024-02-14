@@ -44,13 +44,18 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
+import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-finite/tags). For example,
+
+```javascript
 import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@deno/mod.js';
 ```
 
 #### isFinite( value )
@@ -131,7 +136,7 @@ bool = isFinite.isObject( new Number( 3.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-deno/mod.js';
+import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@deno/mod.js';
 
 var bool = isFinite( -5.0 );
 // returns true
