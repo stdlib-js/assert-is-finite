@@ -44,13 +44,13 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@esm/index.mjs';
+import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-esm/index.mjs';
 ```
 
 #### isFinite( value )
@@ -136,7 +136,7 @@ bool = isFinite.isObject( new Number( 3.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@esm/index.mjs';
+import isFinite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite@v0.2.0-esm/index.mjs';
 
 var bool = isFinite( -5.0 );
 // returns true
