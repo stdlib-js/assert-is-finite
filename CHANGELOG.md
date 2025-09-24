@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-09-24)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8135](https://github.com/stdlib-js/stdlib/issues/8135)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`e7bd1d0`](https://github.com/stdlib-js/stdlib/commit/e7bd1d04143a9e72e40a3cf8bf7daa17e4ad3620) - **style:** re-enable lint rule [(#8138)](https://github.com/stdlib-js/stdlib/pull/8138) _(by Zuhair Ahmad)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 
@@ -25,9 +38,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Zuhair Ahmad
 
 </section>
 
