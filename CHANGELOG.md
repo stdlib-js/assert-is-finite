@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-24)
+## Unreleased (2025-10-17)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#8135](https://github.com/stdlib-js/stdlib/issues/8135)
+[#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8244](https://github.com/stdlib-js/stdlib/issues/8244)
 
 </section>
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`61dddeb`](https://github.com/stdlib-js/stdlib/commit/61dddeb7d3bddb33aa7d60fb692baf43ec8f462d) - **chore:** remove unused ESLint directives from `@stdlib/assert` examples [(#8248)](https:-/github.com/stdlib-js/stdlib/pull/8248) _(by youzi-forge)_
 -   [`e7bd1d0`](https://github.com/stdlib-js/stdlib/commit/e7bd1d04143a9e72e40a3cf8bf7daa17e4ad3620) - **style:** re-enable lint rule [(#8138)](https://github.com/stdlib-js/stdlib/pull/8138) _(by Zuhair Ahmad)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
@@ -38,10 +39,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
 -   Zuhair Ahmad
+-   youzi-forge
 
 </section>
 
