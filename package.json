@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/math-base-assert-is-finite": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
